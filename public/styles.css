@@ -8,7 +8,19 @@
 body {
   margin: 0;
   background-color: rgb(234, 229, 210);
+  max-width: 100vh;
+  overflow-x: hidden;
+  
 }
+
+#about {
+  position: relative;
+}
+
+/* #about .wrapper {
+  display: flex;
+  justify-content: space-between;
+} */
 
 .top-container {
   width: 100vw;
@@ -22,8 +34,18 @@ body {
   justify-content: center;
   font-size: 3vw;
   color: rgb(207, 207, 207);
+  max-width: 100vw;
 }
 
+.second-container {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
+  /* max-width: 100vw; */
+  
+}
 .top-container h1 {
   margin: 20% 0 0;
 }
@@ -76,48 +98,47 @@ body {
 .profile {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  padding-left: 15%;
+  
+  
 }
 
-.profile-picture{
-  width: 30%;
+.profile-picture {
   
   margin: 10% 0% 10% 15%;
-  padding: 5px;
-  
+  padding: 5%;
 }
 
-.profile-contents{
-  
-  margin: 10% 10% 10% 0;
+.profile-contents {
+  margin: 10% 10% 10% 10%;
   padding: 5px;
   text-align: center;
   width: 500px;
-  
-  
 }
 
-.profile-contents h2{
+.profile-contents h2 {
   font-size: 2vw;
   text-align: center;
 }
 
-.profile-contents p{
+.profile-contents p {
   font-size: 1vw;
-  
-  
 }
 
 .profile-Image {
-  width: 80%;
+  width: auto;
   height: auto;
+  scale: 1.5;
 }
 
 /* Navbar */
 
-
 .navbar {
-  overflow: hidden;
   background-color: rgb(234, 229, 210);
+  max-width: 100vw;
 }
 
 .navbar a {
@@ -140,7 +161,6 @@ body {
   margin-right: 100px;
 }
 
-
 hr {
   border-style: none;
   border-top-style: dotted;
@@ -159,9 +179,8 @@ hr {
   -webkit-transform-origin: 70% 70%;
   transform-origin: 70% 70%;
   display: inline-block;
-  width: 30px;;
+  width: 30px;
 }
-
 
 @-webkit-keyframes wave {
   0% {
