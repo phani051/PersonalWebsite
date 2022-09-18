@@ -1,10 +1,12 @@
-var docWidth = document.documentElement.offsetWidth;
 
-[].forEach.call(
-  document.querySelectorAll('*'),
-  function(el) {
-    if (el.offsetWidth > docWidth) {
-      console.log(el);
-    }
+//sticky navbar
+let header = document.querySelector(".navbar");
+let storData = header.offsetTop;
+window.addEventListener("scroll", function (e) {
+  if (window.scrollY >= storData) {
+    header.classList.add("fixednav");
+  } else {
+    header.classList.remove("fixednav");
   }
-);
+});
+

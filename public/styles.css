@@ -3,7 +3,7 @@
 ::after {
   box-sizing: border-box;
   /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -37,7 +37,6 @@ body {
   max-width: 100vw;
 }
 
-
 /* .second-container {
   width: 100vw;
   height: 100vh;
@@ -48,14 +47,24 @@ body {
 } */
 .top-container h1 {
   margin: 20% 0 0;
-  
-  
 }
 
 .top-container h6 {
   padding: 15px 0 5%;
   margin: 0;
-  font-family: 'Cairo Play', cursive;
+  font-family: "Cairo Play", cursive;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
 }
 
 .arrow {
@@ -176,8 +185,6 @@ body {
   margin-right: 100px;
 } */
 
-
-
 .wave {
   -webkit-animation-name: wave;
   animation-name: wave;
@@ -265,85 +272,110 @@ body {
   align-items: center;
 } */
 
-
-#About{
+#About {
   text-align-last: center;
   align-self: center;
   width: 100vw;
-  padding-top: 10%;
+  /* padding-top: 10%; */
 }
 
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #41423d;
+  border-color: #23211a;
   border-width: 8px;
   width: 5%;
+  margin: auto;
+  align-self: center;
 }
 
-.profile{
+.profile {
   padding-bottom: 20px;
+  margin-top: 10%;
 }
 
-.profile h2{
+.profile h2 {
   padding: 10px;
 }
 
-.backup, .scripting, .multimedia{
-  
-  scale: .5;
+.backup,
+.scripting,
+.multimedia {
+  scale: 0.5;
 }
-.backup, .scripting, .multimedia{
-  
+.backup,
+.scripting,
+.multimedia {
   float: left;
 }
 
-
-
-.skill-row{
-  
+.skill-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
 }
 
-.skill-content{
+.skill-content {
   text-align: center;
   padding-top: 15%;
   width: 40%;
 }
 
-.skills h2{
+.skills h2 {
   padding-top: 5%;
 }
 
-.webicon{
-  
+.webicon {
   width: 3%;
 }
 
-.bottom-container{
-  
+.bottom-container {
   text-align: center;
   width: 100vw;
- margin-top: 8%;
- 
+  margin-top: 8%;
+
   background-color: rgba(193, 177, 142, 0.5);
 }
 
-.last-p{
+.last-p {
   margin: 0;
 }
 
-.footer-link{
-  padding: 0% 2% ;
+.footer-link {
+  padding: 0% 2%;
 }
-.socialmedia{
-  
+.socialmedia {
   padding: 10px;
 }
 
+/* Navbar */
 
+.navbar-nav {
+  padding: 0 40px;
+}
 
+.nav-item {
+  padding: 0 10px;
+}
 
+.navbar-brand {
+  padding-left: 10px;
+}
+
+.navbar {
+  background-color: rgb(231, 188, 94);
+  padding: 10px;
+
+  z-index: 1;
+}
+
+.fixednav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+#contact h2{
+  margin-top: 2%;
+}
