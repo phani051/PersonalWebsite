@@ -302,23 +302,32 @@ hr {
 .scripting,
 .multimedia {
   scale: 0.5;
-}
-.backup,
-.scripting,
-.multimedia {
   float: left;
 }
+/* .backup,
+.scripting,
+.multimedia {
+  
+} */
 
-.skill-row {
+.skill-row-left {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
 }
 
+.skill-row-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+}
+
+
 .skill-content {
   text-align: center;
-  padding-top: 15%;
+  padding-top: 10%;
   width: 40%;
 }
 
@@ -377,5 +386,9 @@ hr {
 }
 
 #contact h2{
-  margin-top: 2%;
+  margin-top: 4%;
+}
+
+.contact-msg{
+  padding: 20px;
 }
