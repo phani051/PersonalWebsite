@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "My personal website",
   "main": "src/index.js",
+  "homepage": "http://phani051.github.io/PersonalWebsite",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "phani051",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "^2.1.3"
