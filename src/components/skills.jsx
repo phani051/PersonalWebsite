@@ -1,5 +1,5 @@
 import React from "react";
-import SkillData from "./skills.json";
+import SkillData from "./skillsdata.json";
 
 function SkillRow(props) {
   return (
@@ -34,5 +34,6 @@ function Skills() {
     </div>
   );
 }
+
 
 export default Skills;

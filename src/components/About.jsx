@@ -1,10 +1,12 @@
 import React from "react";
 import Profile from "./profile";
-import Skills from "./skills"
+import Skills from "./skills";
 
 function About() {
   return (
     <section id="About">
+      
+
       <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid ">
           <a class="navbar-brand" href="#">
@@ -46,7 +48,6 @@ function About() {
       <Profile />
       <hr />
       <Skills />
-      
       <hr />
       <div id="contact" class="contact-me">
         <h2>Get In Touch</h2>
@@ -60,7 +61,7 @@ function About() {
         <a class="btn" href="mailto:phanimaya051@email.com">
           <img src="./images/mailme.png" alt="Contact-Me" />
         </a>
-      </div>
+      </div> 
     </section>
   );
 }

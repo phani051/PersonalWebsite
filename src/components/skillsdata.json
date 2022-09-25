@@ -4,7 +4,7 @@
     "styleClass": "backup",
     "image": "./images/backup.png",
     "skillTitle": "Data Protection",
-    "skillDiscription": "Data protection with multiple enterprise backup tools like Veritas Netbackup, Commvault, Arcserve etc,. with industry best pratices."
+    "skillDiscription": "Data protection with multiple enterprise backup tools like Veritas Netbackup, Commvault, Arcserve etc,. and supported from Architectur to implementation and maintaining backup environment."
   },
   {
     "direction": "skill-row-right",
@@ -18,7 +18,7 @@
     "styleClass": "scripting",
     "image": "./images/script.png",
     "skillTitle": "Scripting",
-    "skillDiscription": "Scripting is basic need in the DevOps, I can manage Bash, Powershell & Python."
+    "skillDiscription": "Scripting is basic need in the DevOps, I have good knowledge on Bash, Powershell & Python."
   }
 ]
 
