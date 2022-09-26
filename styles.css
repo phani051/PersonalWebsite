@@ -220,30 +220,47 @@
   .backup,
   .scripting,
   .multimedia {
-    scale: 0.5;
-    float: left;
+    scale: 0.3;
+    padding: 0;
+    margin: 0;
+  
   }
 
   
-  .skill-row-left {
+  .skill-row-left  .skill-row-right{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
+    
+    
+    
   }
+
   
-  .skill-row-right {
+  /* .skill-row-right {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
+  } */
+
+  .skill-image{
+    padding: 0;
+    margin: 0;
+    
+    
   }
   
   
   .skill-content {
+    align-items: center;
     text-align: center;
-    padding-top: 15%;
-    width: 40%;
+    
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding: 0 20px 0 20px;
   }
   
   .skills h2 {
@@ -251,7 +268,7 @@
   }
   
   .webicon {
-    width: 2%;
+    width: 8%;
   }
   
   .bottom-container {
@@ -267,7 +284,7 @@
   }
   
   .footer-link {
-    padding: 0% 2%;
+    padding: 0% 4%;
   }
   .socialmedia {
     padding: 10px;
@@ -302,10 +319,19 @@
   
   #contact h2{
     margin-top: 4%;
+    
+    
+  }
+
+  .contact-msg-h3{
+    text-align: center;
+    font-size: 1rem;
   }
   
   .contact-msg{
     padding: 20px;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -496,7 +522,7 @@
     border-top-style: dotted;
     border-color: #23211a;
     border-width: 8px;
-    width: 5%;
+    width: 15%;
     margin: auto;
     align-self: center;
   }
@@ -508,6 +534,11 @@
   
   .profile h2 {
     padding: 10px;
+  }
+
+  .intro{
+    padding: 10%;
+    font-size: 0.8rem;
   }
   
   .backup,
@@ -789,7 +820,7 @@
     border-top-style: dotted;
     border-color: #23211a;
     border-width: 8px;
-    width: 5%;
+    width: 10%;
     margin: auto;
     align-self: center;
   }
@@ -952,7 +983,7 @@
     animation-duration: 0.5s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    font-size: 5vw;
+    font-size: 3vw;
   }
   
   @-webkit-keyframes arrow-shake {
@@ -1082,7 +1113,7 @@
     border-top-style: dotted;
     border-color: #23211a;
     border-width: 8px;
-    width: 5%;
+    width: 8%;
     margin: auto;
     align-self: center;
   }
