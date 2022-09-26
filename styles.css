@@ -17,7 +17,7 @@
     margin: 0;
     background-color: rgb(234, 227, 210);
     max-width: 100vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   
   
@@ -202,6 +202,11 @@
     margin: auto;
     align-self: center;
   }
+
+  hr:nth-of-type(2){
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
   
   .profile {
     padding-bottom: 20px;
@@ -220,9 +225,9 @@
   .backup,
   .scripting,
   .multimedia {
-    scale: 0.3;
-    padding: 0;
-    margin: 0;
+    width: 50%;
+    height: auto;
+    padding: 10%;
   
   }
 
@@ -544,30 +549,37 @@
   .backup,
   .scripting,
   .multimedia {
-    scale: 0.5;
-    float: left;
+    width: 50%;
+    height: auto;
+    padding: 10%;
+  
   }
 
   
-  .skill-row-left {
+  .skill-row-left  .skill-row-right{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
+    
+    
+    
   }
+
   
-  .skill-row-right {
+  /* .skill-row-right {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
-  }
+  } */
   
   
   .skill-content {
     text-align: center;
-    padding-top: 15%;
-    width: 40%;
+    
+    padding: 15% 10%;
+    
   }
   
   .skills h2 {
@@ -575,7 +587,7 @@
   }
   
   .webicon {
-    width: 2%;
+    width: 5%;
   }
   
   .bottom-container {
@@ -859,8 +871,7 @@
   
   .skill-content {
     text-align: center;
-    padding-top: 15%;
-    width: 40%;
+    padding: 20% 5%;
   }
   
   .skills h2 {
@@ -868,7 +879,7 @@
   }
   
   .webicon {
-    width: 2%;
+    width: 4%;
   }
   
   .bottom-container {
@@ -1161,7 +1172,7 @@
   }
   
   .webicon {
-    width: 2%;
+    width: 2.5%;
   }
   
   .bottom-container {
@@ -1458,7 +1469,7 @@
   }
   
   .webicon {
-    width: 2%;
+    width: 1.8%;
   }
   
   .bottom-container {
