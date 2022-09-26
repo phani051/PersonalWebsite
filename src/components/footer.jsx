@@ -21,7 +21,7 @@ function Footer(){
               </a>
               <a
                 class="footer-link"
-                href="https://phani051.github.io/mysite/"
+                href="https://phani051.github.io/PersonalWebsite/"
                 target="_blank"
               >
                 <img class="webicon" src="./images/worldwide.png" alt="" />
