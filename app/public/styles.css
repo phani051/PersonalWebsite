@@ -15,7 +15,8 @@
  @media (max-width: 480px) {
   body {
     margin: 0;
-    background-color: rgb(234, 227, 210);
+    /* background-color: rgb(234, 227, 210); */
+    background-color: rgb(105, 217, 255);
     max-width: 100vh;
     /* overflow-x: hidden; */
   }
