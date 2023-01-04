@@ -52,7 +52,7 @@ function About() {
       <div id="contact" class="contact-me">
         <h2>Get In Touch</h2>
         <h3 class="contact-msg-h3">
-          If you need DevOps Engineer or your Data protection.
+          If you need DevOps Engineer or if your data need to be protected.
         </h3>
         <p class="contact-msg">
           Love new technologies as much as I do? Let's talk about how awesome
