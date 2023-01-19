@@ -28,7 +28,7 @@ function Footer(){
               </a>
             </div>
 
-            <p class="last-p">© 2022 Phaneendra Kumar.</p>
+            <p class="last-p">© 2023 Phaneendra Kumar.</p>
           </div>
         </section>
     )
