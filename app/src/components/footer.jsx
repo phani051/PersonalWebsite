@@ -1,5 +1,8 @@
 import React from "react";
 
+const currentdate = new Date()
+const year = currentdate.getFullYear()
+
 function Footer(){
     return(
         <section id="footer">
@@ -28,7 +31,7 @@ function Footer(){
               </a>
             </div>
 
-            <p class="last-p">© 2023 Phaneendra Kumar.</p>
+            <p class="last-p">© ${year} Phaneendra Kumar.</p>
           </div>
         </section>
     )
