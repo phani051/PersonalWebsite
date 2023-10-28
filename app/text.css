@@ -1,0 +1,303 @@
+
+
+
+
+
+
+
+Master CSS
+
+
+body {
+  margin: 0;
+  background-color: rgb(234, 227, 210);
+  max-width: 100%;
+  /* overflow-x: hidden; */
+}
+
+
+.top-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/image01.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(207, 207, 207);
+  max-width: 100%;
+}
+
+.top-container h1 {
+  margin: 20% 0 0;
+  font-size: 8rem;
+  
+}
+
+.top-container h6 {
+  padding: 15px 0 5%;
+  margin: 0;
+  font-size:3rem ;
+  font-family: "Cairo Play", cursive;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.arrow {
+  color: rgb(207, 207, 207);
+  -webkit-animation-name: arrow-shake;
+  animation-name: arrow-shake;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  font-size: 3vw;
+}
+
+@-webkit-keyframes arrow-shake {
+  from {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  45% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+}
+@keyframes arrow-shake {
+  from {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  45% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+}
+
+
+
+.wave {
+  -webkit-animation-name: wave;
+  animation-name: wave;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: 70% 70%;
+  transform-origin: 70% 70%;
+  display: inline-block;
+  width: 30px;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+  }
+  20% {
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  30% {
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+  }
+  40% {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes wave {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+  }
+  20% {
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  30% {
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+  }
+  40% {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+
+
+#About {
+  text-align-last: center;
+  align-self: center;
+  width: 100%;
+  /* padding-top: 10%; */
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #23211a;
+  border-width: 8px;
+  width: 5%;
+  margin: auto;
+  align-self: center;
+}
+
+.profile {
+  padding-bottom: 20px;
+  margin-top: 10%;
+}
+
+.profile h2 {
+  padding: 10px;
+}
+
+.backup,
+.scripting,
+.multimedia {
+  scale: 0.5;
+  float: left;
+}
+/* .backup,
+.scripting,
+.multimedia {
+  
+} */
+
+.skill-row-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.skill-row-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.skill-content {
+  text-align: center;
+  padding-top: 12%;
+  width: 40%;
+}
+
+.skills h2 {
+  padding-top: 5%;
+}
+
+.webicon {
+  width: 2%;
+}
+
+.bottom-container {
+  text-align: center;
+  width: 100%;
+  margin-top: 8%;
+
+  background-color: rgba(193, 177, 142, 0.5);
+}
+
+.last-p {
+  margin: 0;
+}
+
+.footer-link {
+  padding: 0% 2%;
+}
+.socialmedia {
+  padding: 10px;
+}
+
+/* Navbar */
+
+.navbar-nav {
+  padding: 0 40px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+}
+
+.navbar {
+  background-color: rgb(231, 188, 94);
+  padding: 10px;
+
+  z-index: 1;
+}
+
+.fixednav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+#contact h2{
+  margin-top: 4%;
+}
+
+.contact-msg{
+  padding: 20px;
+}

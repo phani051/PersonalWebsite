@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- dev051
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+  
+- task: Docker@2
+  inputs:
+    containerRegistry: 'DockerHub'
+    repository: 'phani051/mycv'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
+  
+
+=======
 # Docker
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
@@ -27,3 +51,4 @@ stages:
         dockerfile: '**/Dockerfile'
         tags: |
           $(tag)
+>>>>>>> 06ca863179ec2462eb3f283778030fb60ec79a5a

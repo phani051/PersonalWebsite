@@ -1,0 +1,24 @@
+[
+  {
+    "direction": "skill-row-left",
+    "styleClass": "backup",
+    "image": "./images/backup.png",
+    "skillTitle": "Data Protection",
+    "skillDiscription": "Data protection with multiple enterprise backup tools like Veritas Netbackup, Commvault, Arcserve etc,. and supported from Architectur to implementation and maintaining backup environment."
+  },
+  {
+    "direction": "skill-row-right",
+    "styleClass": "multimedia",
+    "image": "./images/system.gif",
+    "skillTitle": "DevOps Engineer",
+    "skillDiscription": "Experienced DevOps engineer with knowledge of multiple tools like ARM, Terraform, Docker, Jenkins, Ansible etc,. with best pratices of CD/CI."
+  },
+  {
+    "direction": "skill-row-left",
+    "styleClass": "scripting",
+    "image": "./images/script.png",
+    "skillTitle": "Scripting",
+    "skillDiscription": "Scripting is basic need in the DevOps, I have good knowledge on Bash, Powershell & Python."
+  }
+]
+
