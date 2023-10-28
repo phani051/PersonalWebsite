@@ -31,7 +31,7 @@ function Footer(){
               </a>
             </div>
 
-            <p class="last-p">© ${year} Phaneendra Kumar.</p>
+            <p class="last-p">© {year} Phaneendra Kumar.</p>
           </div>
         </section>
     )
